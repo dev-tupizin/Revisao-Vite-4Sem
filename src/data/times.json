@@ -1,0 +1,49 @@
+[
+    {
+        "id": 1,
+        "nome": "Portugal",
+        "campeao": null,
+        "descricao": "Mistura jogadores experientes com uma geração muito promissora.",
+        "imagem": null
+    },
+    {
+        "id": 2,
+        "nome": "Espanha",
+        "campeao": 1,
+        "descricao": "Conhecida pelo futebol de posse de bola e pela formação constante de grandes talentos.",
+        "imagem": null
+    },
+    {
+        "id": 3,
+        "nome": "Inglaterra",
+        "campeao": 1,
+        "descricao": "Possui uma das ligas mais fortes do mundo e um elenco bastante competitivo para disputar o Mundial."
+    },
+    {
+        "id": 4,
+        "nome": "Alemanha",
+        "campeao": 4,
+        "descricao": "Quatro vezes campeã mundial."
+    },
+    {
+        "id": 5,
+        "nome": "Brasil",
+        "campeao": 5,
+        "descricao": "Pentacampeã mundial, a Seleção Brasileira é referência no futebol mundial, famosa por seu estilo ofensivo, jogadores históricos e tradição vencedora.",
+        "imagem": "/img/brasil.tiff"
+    },
+    {
+        "id": 6,
+        "nome": "Argentina",
+        "campeao": 3,
+        "descricao": "Atual campeã do mundo e sem o Messi, não vale 1 real.",
+        "imagem": "/img/argentina.tiff"
+    },
+    {
+        "id": 7,
+        "nome": "França",
+        "campeao": 2,
+        "descricao": "Vice-campeã da Copa de 2022. Vem em 2026 como uma das promissoras ao título.",
+        "imagem": "/img/franca.tiff"
+    }
+]
