@@ -1,3 +1,4 @@
+/* header */
 header {
     text-align: center;
     padding: 20px;
@@ -9,6 +10,7 @@ header {
     margin-bottom: 3px;
 }
 
+/* body */
 section {
     background-color: lightgray;
     padding: 15px 0 5px 15px;
@@ -25,12 +27,13 @@ section li {
 
 .container {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 20px;
     padding: 20px;
 }
 
+/* cards */
 .card {
     background-color: lightgray;
     width: 275px;
@@ -39,14 +42,11 @@ section li {
     box-shadow: 3px 3px 10px gray;
     line-height: 1.25;
     padding: 16px;
-    flex: auto;
-    display: flex;
-    flex-direction: column;
 }
 
 .card img {
     width: 100%;
-    aspect-ratio: 275 / 200;
+    height: 200px;
     border-radius: 5px;
     object-fit: cover;
 }
@@ -56,13 +56,10 @@ section li {
     text-align: center;
 }
 
-.card span {
-    font-weight: bold;
-}
-
 .descricao {
     margin-bottom: 5px;
-    text-align: justify;
-    text-indent: 2rem;
-    flex-grow: 1;
+}
+
+.card span {
+    font-weight: bold;
 }
