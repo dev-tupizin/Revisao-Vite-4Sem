@@ -1,11 +1,11 @@
 import { createBrowserRouter } from 'react-router-dom';
 
-import MeiaBoca from '../pages/MeiaBoca/MeiaBoca';
+import Home from '../pages/MeiaBoca/MeiaBoca';
 
 const router = createBrowserRouter([
     {
         path: '/',
-        element: <MeiaBoca />,
+        element: <Home />,
     },
 ]);
 

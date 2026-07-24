@@ -1,0 +1,28 @@
+.Loading{
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    background-color: lightgray;
+    padding: 15px 0 5px 15px;
+}
+
+section ul {
+    margin-top: 5px;
+    padding-left: 35px;
+}
+
+section li {
+    margin-bottom: 5px;
+}
+
+.container {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}

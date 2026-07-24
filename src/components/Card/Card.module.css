@@ -1,0 +1,31 @@
+.card {
+    background-color: lightgray;
+    width: 275px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px gray;
+    line-height: 1.25;
+    padding: 16px;
+}
+
+.card img {
+    width: 100%;
+    height: 200px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.card h2 {
+    margin: 10px 0;
+    text-align: center;
+}
+
+.descricao {
+    margin-bottom: 5px;
+    text-align: justify;
+    text-indent: 2rem;
+}
+
+.card span {
+    font-weight: bold;
+}
